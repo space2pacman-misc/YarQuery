@@ -1,0 +1,3 @@
+doc.hasClass = function(value) {
+
+}

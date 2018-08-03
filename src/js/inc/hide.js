@@ -1,0 +1,3 @@
+doc.hide = function() {
+
+}
