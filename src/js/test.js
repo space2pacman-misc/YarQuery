@@ -8,3 +8,13 @@ doc.find(".plum").css("background: yellow;").html("PLUM").event("click", functio
 
 console.log(doc.find(".apple").html());
 console.log(doc.find(".plum").html());
+
+doc.find(".show").event("click", function() {
+	doc.find(".orange").show(1000);
+	doc.find(".apple").show(1000);
+})
+
+doc.find(".hide").event("click", function() {
+	doc.find(".orange").hide(1000);
+	doc.find(".apple").hide(1000);
+})
