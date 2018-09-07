@@ -18,3 +18,5 @@ doc.find(".hide").event("click", function() {
 	doc.find(".orange").hide(1000);
 	doc.find(".apple").hide(1000);
 })
+
+console.log(doc.find(".fruits").children())
